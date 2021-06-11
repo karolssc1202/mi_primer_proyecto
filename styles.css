@@ -1,0 +1,97 @@
+/*estilos para los titulos h1 */
+h1 {
+
+    color: rgb(40, 9, 214);/*cambiar color de letra*/
+    text-align: center;
+    background-color:black;
+    font-size: 35px;
+    font-family: 'Pattaya', sans-serif; /* tipo de letra*/
+    
+       }
+
+       body{ 
+          background-color:beige; 
+       }
+        p{
+            color: rgb(0, 0, 0);
+            font-size: 25px;
+            font-family: 'PT Serif', serif;
+        }
+.menu{
+        display: flex;
+        justify-content:center;
+        height: 80px;/*centra el menu*/
+        align-items: center;
+} 
+.menu li{
+    list-style: none;/*quita los puntos de la lista*/
+    margin-left: 51px; /*margen*/
+    margin-right: 51px;
+    font-size: 15px;
+}
+nav{
+    background-color: beige;
+    height: 80px;
+    color:blueviolet
+    
+}
+.input_contacto{
+    width: 25%;/*ancho de un elemento*/
+    border: 3px black solid; /*permite acomodar el borde*/
+}
+.div_contacto {
+    margin-top: 5px;
+}
+.boton_contacto{
+    text-align: center;
+    margin-top: 6px;
+}
+form{
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+}
+.texto{
+    font-size: 30px;
+}
+.imagen{
+    float: left;
+     margin-bottom: 20px;
+    margin-right: 20px;
+    width: 45%;
+}
+h2{
+   color: black;
+   margin-top: 12%;
+   font-size: 25px;
+
+}
+.personaje{
+    width: 25%;
+    text-align: center;
+    border:  black 2px solid;
+    margin: 3%;
+}
+.personaje div{
+    text-align:left;
+    
+}
+.todos-personajes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bg-pink{
+background-color: pink;
+}
+.fondo-morado{
+    background-color: purple;
+   /* height: 100px; */
+    margin: 1px;
+}
+.alto-carusel{
+    height: 500px;
+    width: 600px;
+}
+.parrafo-descripcion {
+    height: 200px;
+}
